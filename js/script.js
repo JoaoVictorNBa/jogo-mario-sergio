@@ -9,8 +9,6 @@ const saltar = () => {
         }, 500);
 }
 
-
-// Novo nome do loop de monitoramento: lacoloop
 const lacoloop = setInterval(()=>{
     const posicaofogo = fogo.offsetLeft; 
     const alturamario = +window.getComputedStyle(mario).bottom.replace('px', '');
@@ -37,3 +35,4 @@ document.addEventListener('keydown', evento => {
     }
 
 });
+
