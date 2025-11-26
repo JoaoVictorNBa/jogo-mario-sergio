@@ -35,4 +35,5 @@ document.addEventListener('keydown', evento => {
     if (evento.code === 'Space') {
         saltar();
     }
+
 });
