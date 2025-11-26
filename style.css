@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Antiga .palco-game */
+.galaxia {
+    width: 100%;
+    height: 450px;
+    border-bottom: 20px solid #00ff00;
+    box-shadow: 0 5px 20px #00ff00;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: radial-gradient(circle, #0a011f 0%, #000000 100%);
+}
+
+/* Antiga .cano */
+.fogo {
+    position: absolute;
+    bottom: 0;
+    width: 90px;
+    animation: fogo-animation 2s infinite linear;
+}
+
+@keyframes fogo-animation { 
+    from {
+        right: -100px; 
+    }
+    to {
+        right: 100%;
+    }
+}
+
+.mario { 
+    width: 100px; /* Robô um pouco menor */
+    position: absolute;
+    bottom: 0;
+}
+
+/* Antiga .pulo */
+.saltar { 
+    animation: salto-mario 500ms ease-out;
+}
+
+@keyframes salto-mario { 
+    0% { bottom: 0; }
+    40% { bottom: 200px; }
+    50% { bottom: 200px; }
+    60% { bottom: 200px; }
+    100% { bottom: 0; }
+}
+
+/* Antiga .nuvem */
+.asteroide { 
+    position: absolute;
+    width: 400px;
+    top: 50px;
+    opacity: 0.6;
+    animation: asteroide-animation 15s infinite linear;
+}
+
+@keyframes asteroide-animation {
+    from {
+        right: -500px;
+    }
+    to {
+        right: 100%;
+    }
+}
