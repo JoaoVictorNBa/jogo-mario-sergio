@@ -34,7 +34,7 @@
 }
 
 .mario { 
-    width: 100px; /* Robô um pouco menor */
+    width: 100px;
     position: absolute;
     bottom: 0;
 }
@@ -69,3 +69,4 @@
         right: 100%;
     }
 }
+
