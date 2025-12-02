@@ -21,7 +21,7 @@ const lacoloop = setInterval(()=>{
         pkx.style.animation = 'none';
         pkx.style.bottom = `${alturapkx}px`;
         
-        pkx.src = 'img/game-over.png';
+        pkx.src = 'img/imagens.jpeg';
         pkx.style.width ='90px';
         pkx.style.marginLeft = '30px';
         
@@ -35,5 +35,6 @@ document.addEventListener('keydown', evento => {
     }
 
 });
+
 
 
